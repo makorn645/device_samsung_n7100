@@ -81,6 +81,10 @@ PRODUCT_PACKAGES += \
     Nfc \
     Tag
 
+# NFC HAL
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.0-impl
+
 PRODUCT_COPY_FILES += \
     frameworks/base/nfc-extras/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml

@@ -73,5 +73,5 @@ RECOVERY_FSTAB_VERSION := 2
 # SENSORS_NEED_SETRATE_ON_ENABLE := true
 
 # Selinux
-BOARD_SEPOLICY_DIRS += \
-    device/samsung/n7100/selinux
+# BOARD_SEPOLICY_DIRS += \
+#     device/samsung/n7100/selinux

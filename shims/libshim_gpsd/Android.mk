@@ -19,7 +19,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := samsung_gps.cpp
-LOCAL_SHARED_LIBRARIES := libgui
+LOCAL_SHARED_LIBRARIES := libgui liblog libutils
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
 LOCAL_MODULE := libshim_gpsd
 LOCAL_MODULE_TAGS := optional
